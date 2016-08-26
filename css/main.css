@@ -1,0 +1,45 @@
+h1{
+
+	font-family: 'Lobster Two';
+}
+
+h5{
+	font-family: 'Tillana';
+}
+
+p{
+
+	font-size: 15px;
+	font-family: 'Tillana';
+}
+
+.box{
+background: grey;	
+text-align: center;
+width: 200px;
+height: 430px;
+float: left;
+box-shadow:1px 5px 5px 1px;	
+margin: 8px;
+padding: 5px;
+}
+
+span{
+	color:#41DADA;
+	font-size:90px;
+	margin: 8px;
+}
+
+.box:hover{
+	width: 210px;
+	height: 440px;
+	font-size: 20px;
+	background-color: white;
+	-webkit-transition: width 0.5s; 
+	transition: width 0.5s;
+	color: grey;
+}
+.box:hover span{
+	color:#BC57DE;
+	transition: width 0.5s;
+}
